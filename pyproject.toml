@@ -2,7 +2,7 @@
 name = "coderev"
 version = "1.0.0"
 description = "Automated AI PR review (pluggable agent)"
-readme = "user_manual.md"
+readme = "README.md"
 authors = ["Sipos Bence", "Pótfi Szabolcs"]
 packages = [{include = "coderev"}]
 

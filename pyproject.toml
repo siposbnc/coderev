@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "coderev"
+version = "1.0.0"
+description = "Automated AI PR review (pluggable agent)"
+readme = "user_manual.md"
+authors = ["Sipos Bence", "Pótfi Szabolcs"]
+packages = [{include = "coderev"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.scripts]
+coderev = "coderev:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

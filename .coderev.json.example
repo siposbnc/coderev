@@ -1,0 +1,13 @@
+{
+  "obey-doc": ["CONTRIBUTING.md", "docs/style.md"],
+  "template": "review_template.md",
+  "include-full-files": false,
+  "base-ref": "origin/main",
+  "agent": "codex",
+  "context-lines": 20,
+  "max-diff-bytes": 600000,
+  "max-doc-bytes": 200000,
+  "max-file-bytes": 200000,
+  "snippet-max-chars": 25000,
+  "out": "review.md"
+}
